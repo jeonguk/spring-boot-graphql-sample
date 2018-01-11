@@ -1,17 +1,28 @@
-logs
-project/project
-project/target
-target
-tmp
-.history
-dist
-/.idea
-/*.iml
-/out
-/.idea_modules
-/.classpath
-/.checkstyle
-/.project
-/RUNNING_PID
-/.settings
-/.springBeans
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+target/
+
+.mvn/
+mvnw
+mvnw.cmd
+
+### NetBeans ###
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+*.log
